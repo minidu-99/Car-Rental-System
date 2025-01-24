@@ -1,0 +1,92 @@
+body {
+    background-color: #f8f9fa; /* Light grey shade */
+}
+
+.header {
+    background-color: #343a40; /* Dark shade of black */
+    color: #f8f9fa; /* Light text */
+    padding: 10px 20px;
+}
+
+.header h1 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.dropdown-menu {
+    background-color: #495057; /* Slightly lighter black */
+    color: #f8f9fa;
+}
+
+.dropdown-menu a {
+    color: #f8f9fa; /* Light text */
+}
+
+.dropdown-menu a:hover {
+    background-color: #6c757d; /* Hover effect */
+}
+
+.sidebar {
+    background-color: #495057; /* Sidebar background */
+    color: #f8f9fa;
+    /* height: 100vh; */
+    padding: 15px;
+    
+}
+
+.sidebar a {
+    color: #f8f9fa;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    /* position: fixed; */
+}
+
+.sidebar a i {
+    margin-right: 10px; /* Space between icon and text */
+}
+
+.sidebar a:hover {
+    background-color: #6c757d;
+}
+
+.content {
+    padding: 20px;
+    background-color: #ffffff; /* White background for content */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    border-radius: 8px;
+    border: 1px solid #c0bcbc;
+}
+
+.card-body {
+    background-color: rgba(255, 255, 255, 0.9); 
+}
+
+/* .card-footer {
+    background-color: #fff;
+} */
+
+.card-footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #79797a;
+}
+
+.card-footer a:hover {
+    color: #0056b3;
+} 
+
+
+
+@media (max-width: 768px) {
+    .sidebar {
+        height: auto;
+    }
+}

@@ -1,0 +1,908 @@
+/* Custom styling for header */
+.header-top {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 0;
+}
+.header-top .contact-info {
+    font-size: 14px;
+}
+.header-top .btn-login {
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+.navbar {
+    background-color: #000;
+}
+.navbar-nav .nav-link {
+    color: #fff;
+    margin-right: 15px;
+}
+.navbar-nav .nav-link:hover {
+    color: #d9534f;
+}
+
+.search-bar input {
+    width: 250px;
+    border: 1px solid #d9534f;
+}
+.search-bar button {
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+}
+.dropdown-toggle {
+background-color: transparent;
+border: 1px solid white; /* Adds a white border */
+color: white; /* Ensures the text color is white */
+}
+
+.login-register {
+    background-color: transparent;
+    border: 1px solid white; /* Adds a white border */
+    color: white; /* Ensures the text color is white */
+    }
+    
+.dropdown-toggle:focus {
+    box-shadow: none; /* Removes the blue border when focused */
+}
+
+
+
+.dropdown-menu {
+    background-color: #000;
+}
+.dropdown-menu .dropdown-item {
+    color: #fff;
+}
+.dropdown-menu .dropdown-item:hover {
+    background-color: #d9534f;
+}
+
+/* HERO SECTION */
+
+.hero-section {
+background-image: url('../images/heroBanner.jpg'); /* Background image */
+background-size: cover; /* Ensures the image covers the entire section */
+background-position: center; /* Centers the image */
+height: 400px; /* Height of the hero section, adjust as needed */
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for readability */
+    height: 100%; /* Full height of the section */
+}
+
+.hero-content h1 {
+    font-size: 3rem; /* Large font size for the main heading */
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.25rem; /* Font size for the subheading */
+    margin-bottom: 30px;
+}
+
+.hero-content .btn {
+    font-size: 1.1rem; /* Larger button text */
+}
+
+
+/* FOOTER */
+.footer-logo {
+    max-width: 150px;
+}
+
+.footer-bottom {
+    background-color: #333; /* Greyish black background */
+}
+
+.footer h5 {
+    font-weight: bold;
+}
+
+.footer ul {
+    padding-left: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #ddd;
+    transition: color 0.3s;
+}
+
+.footer ul li a:hover {
+    color: #f39c12;
+}
+
+
+/* FIND CAR SECTION */
+
+.find-car-section {
+background-color: #f1f1f1; /* Light gray background */
+padding: 4rem 0;
+}
+
+.find-car-section h2 {
+font-size: 2rem;
+color: #333; /* Darker color for the heading */
+margin-bottom: 20px;
+}
+
+.find-car-section p {
+font-size: 1.1rem;
+color: #555; /* Slightly lighter gray for the paragraph */
+line-height: 1.6;
+}
+
+/* PRODUCT ROW */
+
+
+.product-row {
+background-color: #f8f9fa;
+}
+
+.card {
+border: none;
+border-radius: 10px;
+overflow: hidden;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+position: relative;
+}
+
+.card-img-top {
+width: 100%;
+height: 200px;
+object-fit: cover;
+}
+
+.overlay {
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+background: rgba(0, 0, 0, 0.6);
+color: #fff;
+padding: 10px;
+}
+
+.overlay .detail {
+display: flex;
+justify-content: space-between;
+font-size: 0.9rem;
+}
+
+.overlay .detail div {
+display: flex;
+align-items: center;
+}
+
+.overlay .detail i {
+margin-right: 5px;
+}
+
+.card-body {
+padding: 15px;
+}
+
+.card-title {
+font-size: 1.2rem;
+font-weight: bold;
+color: #333;
+}
+
+.card-text {
+font-size: 1rem;
+color: #555;
+}
+/* Ensure the entire card is clickable */
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Add hover effect to the card */
+.card-link:hover .card {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+/* About Us Header Styles */
+.about-header {
+    background: url('../images/aboutusHeader.jpg') center center/cover no-repeat;
+    height: 300px;
+    position: relative;
+}
+
+.about-header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Black overlay with opacity */
+}
+
+.about-header .header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; /* Ensure content is above overlay */
+}
+
+.about-header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.about-header .breadcrumb {
+    background-color: transparent; /* Transparent breadcrumb background */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.about-header .breadcrumb-item a {
+    color: #fff; /* White text for Home link */
+    text-decoration: underline; /* Underline for better visibility */
+}
+
+.about-header .breadcrumb-item a:hover {
+    color: #f39c12; /* Highlight color on hover */
+}
+
+.about-header .breadcrumb-item.active {
+    color: #ccc; /* Lighter shade for the active breadcrumb */
+}
+
+/* Contact us header */
+
+.contact-header {
+    background: url('../images/contactUs.jpg') center center/cover no-repeat;
+    height: 300px;
+    position: relative;
+}
+
+.contact-header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Black overlay with opacity */
+}
+
+.contact-header .header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; /* Ensure content is above overlay */
+}
+
+.contact-header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-header .breadcrumb {
+    background-color: transparent; /* Transparent breadcrumb background */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.contact-header .breadcrumb-item a {
+    color: #fff; /* White text for Home link */
+    text-decoration: underline; /* Underline for better visibility */
+}
+
+.contact-header .breadcrumb-item a:hover {
+    color: #f39c12; /* Highlight color on hover */
+}
+
+.contact-header .breadcrumb-item.active {
+    color: #ccc; /* Lighter shade for the active breadcrumb */
+}
+
+/* CARLIST HEADER */
+.carlist-header {
+    background: url('../images/carlist.jpg') center center/cover no-repeat;
+    height: 300px;
+    position: relative;
+}
+
+.carlist-header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Black overlay with opacity */
+}
+
+.carlist-header .header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; /* Ensure content is above overlay */
+}
+
+.carlist-header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.carlist-header .breadcrumb {
+    background-color: transparent; /* Transparent breadcrumb background */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.carlist-header .breadcrumb-item a {
+    color: #fff; /* White text for Home link */
+    text-decoration: underline; /* Underline for better visibility */
+}
+
+.carlist-header .breadcrumb-item a:hover {
+    color: #f39c12; /* Highlight color on hover */
+}
+
+.carlist-header .breadcrumb-item.active {
+    color: #ccc; /* Lighter shade for the active breadcrumb */
+}
+
+.carlist-header {
+    background: url('../images/carlist.jpg') center center/cover no-repeat;
+    height: 300px;
+    position: relative;
+}
+
+.carlist-header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Black overlay with opacity */
+}
+
+.carlist-header .header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; /* Ensure content is above overlay */
+}
+
+.carlist-header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.carlist-header .breadcrumb {
+    background-color: transparent; /* Transparent breadcrumb background */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.carlist-header .breadcrumb-item a {
+    color: #fff; /* White text for Home link */
+    text-decoration: underline; /* Underline for better visibility */
+}
+
+.carlist-header .breadcrumb-item a:hover {
+    color: #f39c12; /* Highlight color on hover */
+}
+
+.carlist-header .breadcrumb-item.active {
+    color: #ccc; /* Lighter shade for the active breadcrumb */
+}
+
+/* Profile HEADER*/
+
+
+.profile-header {
+    background: url('../images/carlist.jpg') center center/cover no-repeat;
+    height: 300px;
+    position: relative;
+}
+
+.profile-header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Black overlay with opacity */
+}
+
+.profile-header .header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; /* Ensure content is above overlay */
+}
+
+.profile-header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.profile-header .breadcrumb {
+    background-color: transparent; /* Transparent breadcrumb background */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.profile-header .breadcrumb-item a {
+    color: #fff; /* White text for Home link */
+    text-decoration: underline; /* Underline for better visibility */
+}
+
+.profile-header .breadcrumb-item a:hover {
+    color: #f39c12; /* Highlight color on hover */
+}
+
+.profile-header .breadcrumb-item.active {
+    color: #ccc; /* Lighter shade for the active breadcrumb */
+}
+
+.profile-header {
+    background: url('../images/carlist.jpg') center center/cover no-repeat;
+    height: 300px;
+    position: relative;
+}
+
+.profile-header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Black overlay with opacity */
+}
+
+.profile-header .header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; /* Ensure content is above overlay */
+}
+
+.profile-header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.profile-header .breadcrumb {
+    background-color: transparent; /* Transparent breadcrumb background */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.profile-header .breadcrumb-item a {
+    color: #fff; /* White text for Home link */
+    text-decoration: underline; /* Underline for better visibility */
+}
+
+.profile-header .breadcrumb-item a:hover {
+    color: #f39c12; /* Highlight color on hover */
+}
+
+.profile-header .breadcrumb-item.active {
+    color: #ccc; /* Lighter shade for the active breadcrumb */
+}
+
+/* Contact Us Section Styles */
+.contact-us-section {
+    background-color: #f9f9f9;
+}
+
+.contact-us-section h2 {
+    color: #333;
+    font-size: 2.5rem;
+}
+
+.contact-us-section p {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.contact-us-section .form-control {
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+    padding: 10px;
+}
+
+.contact-us-section .btn-primary {
+    background-color: #d9534f;
+    border: none;
+}
+
+.contact-us-section .btn-primary:hover {
+    background-color: #c9302c;
+}
+
+.contact-us-section ul {
+    padding: 0;
+    list-style: none;
+}
+
+.contact-us-section ul li a {
+    font-size: 1.5rem;
+    color: #666;
+    transition: color 0.3s;
+}
+
+.contact-us-section ul li a:hover {
+    color: #d9534f;
+}
+
+/* CAR LISTING CARDS */
+
+/* Filter Widget Styling */
+.filter-widget {
+    border: 1px solid #888; /* Subtle border for a clean look */
+    border-radius: 8px; /* Smooth rounded corners */
+    padding: 20px; /* More spacious padding */
+    margin-bottom: 20px; /* Space between elements */
+    background-color: #f9f9f9; /* Light background for contrast */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.filter-widget .btn {
+    width: 100%;
+    background-color: #dc3545; /* Red background */
+    color: #fff; /* White text */
+    border: none; /* No border for a flat look */
+    padding: 10px;
+    border-radius: 5px; /* Smooth corners */
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+.filter-widget .btn:hover {
+    background-color: #c82333; /* Darker red on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Hover shadow */
+}
+
+/* Result Info Styling */
+.result-info {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    color: #555; /* Neutral text color */
+}
+
+/* Car Card Styling */
+.car-card {
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Smooth corners */
+    display: flex; /* Flex for horizontal alignment */
+    padding: 20px; /* Spacious padding */
+    margin-bottom: 20px;
+    align-items: center;
+    background-color: #fff; /* White background */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+}
+
+.car-card:hover {
+    transform: translateY(-5px); /* Slight upward movement */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+}
+
+.car-card img {
+    max-width: 250px; /* Larger image for prominence */
+    height: auto;
+    border-radius: 8px; /* Smooth corners for image */
+}
+
+.car-details {
+    margin-left: 20px; /* More spacing between image and text */
+    flex-grow: 1; /* Allow text to fill space */
+}
+
+.car-details h5 {
+    font-size: 1.5rem; /* Larger heading */
+    margin-bottom: 10px;
+    color: #333; /* Darker text color */
+}
+
+.car-details p {
+    margin: 0 0 10px; /* Spacing between details */
+    color: #666; /* Subtle text color */
+    font-size: 0.95rem;
+    display: flex; /* Flex for inline icons and text */
+    align-items: center; /* Center alignment */
+    gap: 8px; /* Space between icon and text */
+}
+
+.car-details .btn {
+    margin-top: 10px;
+    background-color: #dc3545; /* Red background */
+    color: #fff; /* White text */
+    border: none; /* No border */
+    padding: 10px 15px;
+    border-radius: 5px; /* Smooth corners */
+    font-size: 0.95rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.car-details .btn:hover {
+    background-color: #c82333; /* Darker red */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Hover shadow */
+}
+
+
+#carCarousel .carousel-inner .carousel-item img {
+    max-height: 300px;  /* Adjust the height as needed */
+    object-fit: contain;  /* Ensures the image maintains its aspect ratio */
+    width: 100%;  /* Make sure the image covers the full width of the carousel */
+    display: block;
+    margin: 0 auto;  /* Centers the image horizontally */
+}
+
+/* Tab container styling */
+#carDetailsTab {
+    border-bottom: 2px solid #ddd;
+    background-color: #f8f9fa; /* Light background for tabs */
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* Tab button styling */
+.nav-tabs .nav-link {
+    border: none;
+    border-radius: 5px 5px 0 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+.nav-tabs .nav-link:hover {
+    background-color: #e2e6ea;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #c82333;
+    color: white;
+    border-color: #c82333;
+}
+
+/* Tab content styling */
+.tab-content {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Tab panel content (Description and Accessories) */
+.tab-pane {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Table styling */
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.table th, .table td {
+    padding: 10px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+    color: #333;
+}
+
+.table td {
+    border-top: 1px solid #ddd;
+}
+
+.table-bordered {
+    border: 1px solid #ddd;
+}
+
+/* Icon Styling in the Table */
+.table .text-success {
+    color: #28a745;
+}
+
+.table .text-danger {
+    color: #dc3545;
+}
+
+/* Styling for description */
+#description p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* SIDEBAR */
+
+/* Sidebar styling */
+.sidebar {
+    background-color: #f8f9fa;
+    border-right: 1px solid #ddd;
+    padding: 15px;
+    height: 100vh;
+}
+
+.sidebar .nav-link {
+    font-weight: 600;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.sidebar .nav-link:hover, .sidebar .nav-link.active {
+    background-color: #dc3545;
+    color: white;
+    border-radius: 5px;
+}
+
+.sidebar .nav-link.sign-out {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Tab Content Section Styling */
+.tab-content {
+    padding: 20px;
+}
+
+.tab-pane h4 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.tab-pane form .mb-3 label {
+    font-weight: 600;
+}
+
+.tab-pane form .form-control {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.tab-pane form .btn {
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Table Styling for My Bookings */
+.profiletable {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.profiletable th, .table td {
+    text-align: center;
+    padding: 10px;
+}
+
+.profiletable th {
+    background-color: #f1f1f1;
+    font-weight: 600;
+}
+
+.profiletable-bordered {
+    border: 1px solid #ddd;
+}
+
+/* Styling for booking details */
+.booking-details {
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.booking-details h5 {
+    margin-bottom: 10px;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .header-top .contact-info {
+        display: none;
+    }
+    .navbar-nav {
+        justify-content: center;
+    }
+    .navbar-nav .nav-link {
+        margin-right: 0;
+    }
+    .search-bar input {
+        width: 150px;
+        font-size: 12px;
+    }
+    .search-bar button {
+        font-size: 12px;
+        padding: 3px 6px;
+    }
+    .card-img-top {
+    height: 180px;
+    }
+    .footer-logo {
+        max-width: 120px;
+    }
+    .footer h5 {
+        font-size: 1.1rem;
+    }
+    .about-header {
+        height: 200px; /* Adjust height for smaller screens */
+    }
+
+    .about-header h1 {
+        font-size: 2rem; /* Adjust heading size */
+    }
+    .contact-us-section h2 {
+        font-size: 2rem;
+    }
+
+    .contact-us-section p {
+        font-size: 0.9rem;
+    }
+
+    .filter-widget {
+        margin-bottom: 15px;
+    }
+
+    .car-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .car-card img {
+        margin-bottom: 10px;
+        max-width: 100%;
+    }
+
+    .car-details {
+        margin-left: 0;
+    }
+}
